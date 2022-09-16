@@ -126,7 +126,7 @@ bt_sal = PhotoImage(file="gui_1/img/boton_salir.png")
 bt_salir = Button(frame_operaciones, image=bt_sal, width=105, height=105, command=salir)
 bt_salir.place(x=558, y=7)
 
-'''
+
 # ------------------
 # frame resultados
 # ------------------
@@ -137,7 +137,7 @@ frame_resultados.place(x=10,y=390)
 # area de texto para resultados
 t_resultados = Text(frame_resultados, width=50, height=3)
 t_resultados.config(bg="green", fg="white", font=("Courier", 20))
-t_resultados.pack()'''
+t_resultados.pack()
 
 # se ejecuta el metodo mainloop() de la clase Tk() a través de la instancia ventana_principal.  Este metodo despliega una ventana simple en pantalla y queda a la espera de lo que el usuario haga (click en boton, escribir, etc).  Cada accion del usuario se conoce como un evento.  El metodo mainloop() es un bucle infinito.
 ventana_principal.mainloop()
